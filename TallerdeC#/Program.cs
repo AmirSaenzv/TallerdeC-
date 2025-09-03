@@ -35,6 +35,12 @@ namespace TallerdeC_
             Console.WriteLine("El producto es: " + (producto+2));
             Console.WriteLine($"El producto es: {producto}"); //Interpolacion de cadenas
 
+            Console.WriteLine();
+            Console.WriteLine("Alagoritmo area del triangulo");
+
+            Ejercicio1 eje1 = new Ejercicio1();
+            eje1.areatriangulo();
+
             //Detener pantalla para ver mensaje
             Console.ReadKey();
 
